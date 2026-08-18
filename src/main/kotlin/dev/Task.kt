@@ -7,5 +7,6 @@ data class Task(
     val title: String,
     val description: String,
     val dueDateUtc: Instant?,
-    val recurrenceRule: RecurrenceRule? = null
+    val recurrenceRule: RecurrenceRule? = null,
+    val deletedAt: Instant? = null
 )
